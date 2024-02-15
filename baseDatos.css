@@ -17,10 +17,17 @@ body {
   #listaAlumnos {
     margin-top: 20px;
   }
+
+  input {
+    background: #ddd;
+    border-radius: 8px;
+  }
   
   button {
     margin-right: 10px;
     margin-bottom: 10px;
+    background: #eee;
+    border-radius: 8px;
   }
   
   .alumno-item {
