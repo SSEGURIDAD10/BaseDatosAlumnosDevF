@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="baseDatos.css">
+  <title>Gestión de Alumnos</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Gestión de Alumnos</h1>
+    <div id="formularioAlta">
+      <h2>Alta de Alumno</h2>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" required>
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" required>
+      <button onclick="darDeAltaAlumno()">Dar de Alta</button>
+    </div>
+    <div id="listaAlumnos">
+      <h2>Lista de Alumnos</h2>
+      <ul id="alumnos"></ul>
+    </div>
+    <div id="informacionAlumno" style="display:none;"></div>
+  </div>
+  <script src="baseDatos.js"></script>
+</body>
+</html>

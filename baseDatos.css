@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #formularioAlta {
+    margin-top: 20px;
+  }
+  
+  #listaAlumnos {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .alumno-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .alumno-item button {
+    margin-left: 10px;
+  }
