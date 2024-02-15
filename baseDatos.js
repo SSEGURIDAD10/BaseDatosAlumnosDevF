@@ -149,3 +149,7 @@ function buscarAlumno() {
     listaAlumnos.appendChild(item);
   });
 }
+
+function mostrarTodosLosAlumnos() {
+  actualizarListaAlumnos(); 
+}
